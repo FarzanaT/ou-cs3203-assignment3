@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class First_Class {
-	public static void main(String []args){ //main method created
+	public static void main(String []args){ //main method added
 		Scanner myObj = new Scanner(System.in);
 		System.out.println(("working"));
 		System.out.println(("working"));
