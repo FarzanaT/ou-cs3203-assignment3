@@ -16,7 +16,8 @@ public class First_Class {
 		System.out.println(("3rd input"));
 		arr[2] = myObj.nextInt();
 		
-		
+		//merging 
+	
 		System.out.println(countingProduct(arr));
 		int[]tr = reversedArr(arr);
 		for (int i = 0; i<arr.length;i++) {
