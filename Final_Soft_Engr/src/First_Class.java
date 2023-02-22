@@ -23,6 +23,7 @@ public class First_Class {
 		for (int i = 0; i<arr.length;i++) {
 			System.out.println(tr[i]);
 		}
+		//part 10 created 
 		
 }
 	
