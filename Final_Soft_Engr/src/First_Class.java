@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class First_Class {
-	public static void main(String []args){
+	public static void main(String []args){ //main method created
 		System.out.println(("working"));
 		System.out.println(("working"));
 		int[]arr = {1, 2, 3};
