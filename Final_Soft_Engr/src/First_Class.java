@@ -2,9 +2,21 @@ import java.util.*;
 
 public class First_Class {
 	public static void main(String []args){ //main method created
+		Scanner myObj = new Scanner(System.in);
 		System.out.println(("working"));
 		System.out.println(("working"));
-		int[]arr = {1, 2, 3};
+		
+		int[]arr = new int[3];
+		System.out.println(("1st input"));
+		arr[0] = myObj.nextInt();
+		
+		System.out.println(("2nd input"));
+		arr[1] = myObj.nextInt();
+		
+		System.out.println(("3rd input"));
+		arr[2] = myObj.nextInt();
+		
+		
 		System.out.println(countingProduct(arr));
 		int[]tr = reversedArr(arr);
 		for (int i = 0; i<arr.length;i++) {
